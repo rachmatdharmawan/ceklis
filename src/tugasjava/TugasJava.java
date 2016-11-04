@@ -46,3 +46,14 @@ public class TugasJava {
             }
             System.out.println();
         }
+        
+        
+        for(i=0; i<panjang; i++) {
+            for(int k=0; k<i; k++) {
+                System.out.print(" ");
+            }
+            for(j=0; j<(panjang-i); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
