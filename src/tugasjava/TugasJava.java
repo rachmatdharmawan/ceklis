@@ -22,3 +22,10 @@ public class TugasJava {
         
         panjang =Integer.valueOf(JOptionPane.showInputDialog("Jumlah Karakter Segitiga:"));
         System.out.print("Hasil Karakter yang ditampilkan");
+         for(i=0;i<=panjang;i++) {
+            for(j=0; j<i; j++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+        System.out.println();
