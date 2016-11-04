@@ -30,9 +30,19 @@ public class TugasJava {
         }
         System.out.println();
         
-        or(i=0;i<panjang;i++) {
+        for(i=0;i<panjang;i++) {
             for(j=i;j<panjang;j++) {
                 System.out.print("*");
             }
         System.out.println();
+        }
+        
+        for(i=0; i<=panjang; i++) {
+            for(j=0; j<(panjang-i); j++) {
+                System.out.print(" ");
+            }
+            for(int k=0; k<i; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
